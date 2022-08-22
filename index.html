@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfoliowebsite</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b2162d5232.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="/images/logo.png" class="logo" /> -->
+          <h class="logo"><span>A</span>bhishek</h>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">my skill</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>web developer</p>
+          <h1>
+            Hi, I'm <span>Abhishek</span> <br />
+            from ranchi,jharkhand
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------HEADER SECTION COMPLETED------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="abhi.jpg.jpg" alt="#" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              My name is Abhishek kumar, currenty i am living in ranchi.
+              I'm pursuing my graduation in computer application(Bsc.Ca) from dr shayama prasad university,Ranchi.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span>
+                  <br />
+                  Designing web app interface(frontend)
+                </li>
+                <li>
+                  <span>Web developer</span>
+                  <br />
+                  Web application development
+                </li>
+                <li>
+                  <span>programming language</span>
+                  <br />
+                  c,c++,html,css,javascript,php
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Web Designing</span>
+                  <br />
+                  Designing web interfaces since last year.
+                </li>
+                <li>
+                  <span>Web developer</span>
+                  <br />
+                  Web app development since last  years
+                </li>
+                <li>
+                  <span>programming laguage</span>
+                  <br />
+                  programming language like c,c++ for strength ,and make concept.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                    <span>saraswati vidya mandir,Latehar</span>
+                    <br />
+                    (matriculation)
+                <li>
+                  <span>marwaari college ,Ranchi</span>
+                  <br />
+                   (Intermediate)
+                </li>
+                <li>
+                  <span>Dr shyama prasad mukherjee university,Ranchi</span>
+                  <br />
+                  2020-2023(Bachelor of  science in computer application)
+                </li>
+                <!-- <li>
+                  <span>App development</span>
+                  <br />
+                  Building Android/Ios apps
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------ABOUT SECTION COMPLETED---------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h class="subtitle">My skill</h>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>
+                        The term "web design" is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web design partially overlaps web engineering in the broader scope of web development.  
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>programming(c,c++)</h2>
+                    <p>
+                        C++ is a general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-brands fa-android"></i> -->
+                    <i class="fa-solid fa-crop-simple"></i>
+
+                    <h2>Ui/UX Designer</h2>
+                    <p>
+                        UI stands for user interface design. User interface design refers to the design of user interfaces for software and machines, such as computers, mobile devices, home appliances, and other electronic devices. The main purpose of UI is to maximize the usability of these devices and to enhance user experience!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------SERVICES <SEction> COMPLETED</SEction>----------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My top project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pr1.jpg.png" alt="">
+                    <div class="layer">
+                        <h3>calculator(html,css,javascript)</h3>
+                        <p>i made a basic calculator using html,css,javascript,its a first when i use javascript as a programming language in 
+                            my web development.you can also use my calculator through the link provided in my GITHUB account!</p>
+                        <a href="https://abhishek76a.github.io/basic-calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pr2.jpg.png" alt="">
+                    <div class="layer">
+                        <h3>web development(htmml,css)</h3>
+                        <p>its my first webpage created by me,this website is based on jharkhand tourism,i have used html,css to make this wonderful frontend</p>
+                        <a href="https://abhishek76a.github.io/jharkhandtourism.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pr3.jpg.png" alt="">
+                    <div class="layer">
+                        <h3>trip form(html,css,php)</h3>
+                        <p>This project is my one of the best project till date i  have made it with the help of html,css,php.
+                         this (trip form) help to store data in the database provided by anyone when they fill the form </p>
+
+                        <a href="https://abhishek76a.github.io/trip/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolio" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------------------------PORTFOLIO SECTION COMPLETED--------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 subtitle>Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ppuabhishek@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8409237514</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100020942373225" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/i.m._abhishekk_/ " target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/Abhishe42379150" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/abhishek-kumar-870060232" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/abhishek76A/abhishek76A" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+
+                    <a href="my-cv.pdf.pdf" download class="btn btn2">download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#">
+                        <input type="text" name= "name" placeholder="Your name" required>
+                        <input type="email" name= "email" placeholder="Your email" required>
+                        <textarea name="msg"  rows="6" placeholder="Your messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i>ppuabhishek@gmail.com</p>
+            <p>MADE WITH <span class="heart-emote"> ❤ </span>BY <spam class="heart-emote"><b>ABHISHEK</b></spam></p>
+        </div>
+    </div>
+
+    <script>
+      let tabcontents = document.getElementsByClassName("tab-contents");
+      let tablinks = document.getElementsByClassName("tab-links");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+let sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+    </script>
+  </body>
+</html>
